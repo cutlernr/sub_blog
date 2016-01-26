@@ -13,8 +13,11 @@ group :production do
   gem 'rails_12factor'
 end
 
+#Bootstrap used for styles
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'sass-rails', '>= 3.2'
+#Use font awesome library for icons
+gem 'font-awesome-sass', '4.2.0'
 # Use SCSS for stylesheets
 #gem 'sass-rails', '3.2'
 # Use Uglifier as compressor for JavaScript assets
